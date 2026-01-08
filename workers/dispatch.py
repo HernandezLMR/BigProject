@@ -1,6 +1,5 @@
 from dask.distributed import Client
 from pymongo import MongoClient
-# We don't import the model here! The client doesn't need PyTorch.
 
 def main():
     # Connect toDask Cluster
